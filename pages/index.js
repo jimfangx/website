@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div className=''>
       <Head>
-        <title>Create Next App</title>
+        <title>Jim Fang</title>
       </Head>
 
       <div className='m-auto w-255 h-256 block text-center'>
