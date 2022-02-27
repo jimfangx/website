@@ -1,9 +1,8 @@
 import '../styles/globals.css'
-import Nav from '../globalCompoents/Nav'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className='h-screen bg-black text-white'>
+    <div className='h-screen bg-bgBlack text-white flex justify-center items-center'>
       <Component {...pageProps} />
     </div>
   )
