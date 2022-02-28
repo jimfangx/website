@@ -8,6 +8,15 @@ module.exports = {
     extend: {
       colors: {
         'bgBlack': '#0f0f0f'
+      },
+      animation: {
+        'fade': 'fade ease 3s infinite'
+      },
+      keyframes: {
+        fade: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' }
+        },
       }
     },
     fontFamily: {
