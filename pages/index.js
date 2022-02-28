@@ -40,6 +40,7 @@ export default function Home() {
             alt='logo'
             width={255}
             height={256}
+            className='animate-fade'
           >
           </Image>
         </div>
@@ -47,7 +48,7 @@ export default function Home() {
 
         <div className='text-center space-y-4 font-sans'>
           <h2 className='text-9xl animate-fade'>Jim Fang</h2>
-          <span ref={el} className='text-7xl'></span>
+          <span ref={el} className='text-7xl animate-fade'></span>
         </div>
 
 
@@ -62,7 +63,7 @@ export default function Home() {
         </div>
 
 
-        <div className='pt-4 text-7xl'>
+        <div className='pt-4 text-7xl animate-fade'>
           <FaArrowDown />
         </div>
       </div>
