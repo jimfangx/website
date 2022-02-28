@@ -10,7 +10,7 @@ module.exports = {
         'bgBlack': '#0f0f0f'
       },
       animation: {
-        'fade': 'fade ease 3s infinite'
+        'fade': 'fade ease 3s'
       },
       keyframes: {
         fade: {
