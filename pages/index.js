@@ -5,6 +5,7 @@ import '../styles/index.module.css'
 import Image from 'next/image'
 import Socials from '../components/Socials'
 import Links from '../components/Links'
+import About from '../components/About'
 import { FaArrowDown } from "react-icons/fa";
 
 export default function Home() {
@@ -28,8 +29,8 @@ export default function Home() {
   }, []);
 
   return (
-    <div className='bg-bgBlack text-white overflow-hidden'>
-      <div className='h-screen flex flex-col justify-center items-center'>
+    <div className='bg-bgBlack text-white overflow-hidden flex items-center flex-col'>
+      <div className='h-screen flex flex-col justify-center items-center w-9/12'>
         <Head>
           <title>Jim Fang</title>
         </Head>
@@ -69,8 +70,9 @@ export default function Home() {
       </div>
 
 
-      <div>
-        <h1 className='text-9xl'>TESTING</h1>
+      <div className='flex flex-col justify-center items-center w-9/12 mt-[5.5rem]'>
+        <About>
+        </About>
       </div>
     </div>
   )
