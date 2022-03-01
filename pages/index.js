@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Socials from '../components/Socials'
 import Links from '../components/Links'
 import About from '../components/About'
+import Contact from '../components/Contact'
 import { FaArrowDown } from "react-icons/fa";
 
 export default function Home() {
@@ -73,6 +74,11 @@ export default function Home() {
       <div className='flex flex-col w-9/12 mt-[5.5rem]'>
         <About>
         </About>
+      </div>
+
+      <div className='flex flex-col w-9/12 mt-[5.5rem]'>
+        <Contact>
+        </Contact>
       </div>
     </div>
   )

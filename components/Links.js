@@ -10,7 +10,7 @@ export default function Links() {
                 Projects <FaExternalLinkAlt className="ml-2 mt-1 text-2xl" />
             </a>
             <a className='flex flex-row justify-between m-4'>
-                Tools & Gear
+                Main Stack & Gear
             </a>
             <a className='flex flex-row justify-between m-4'>
                 Site Navigation

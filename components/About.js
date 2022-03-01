@@ -1,7 +1,7 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
 export default function About() {
     return (
-        <div className=''>
+        <div>
             <h1 className="text-7xl underline decoration-double pb-5">Who am I?</h1>
             <p className="text-4xl pb-3">
                 👋 Hi there! I am Jim, a tech-enthusiast exploring the world-wide-web, the world of consumer electrons & manufacturing, the role of tech in education & the world of aviation. When I am not focused on tech & engineering, you can find me outdoors taking photos.
