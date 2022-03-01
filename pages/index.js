@@ -70,7 +70,7 @@ export default function Home() {
       </div>
 
 
-      <div className='flex flex-col justify-center items-center w-9/12 mt-[5.5rem]'>
+      <div className='flex flex-col w-9/12 mt-[5.5rem]'>
         <About>
         </About>
       </div>
