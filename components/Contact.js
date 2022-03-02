@@ -3,9 +3,9 @@ export default function About() {
     return (
         <div>
             <h1 className="text-7xl underline decoration-double pb-5">Contact</h1>
-            <div className="text-4xl">
+            <div className="text-3xl">
                 <p className="pb-3">
-                    Don't hesitate to reach out! I would love to hear from you!
+                    Don&#39;t hesitate to reach out! I would love to hear from you!
                 </p>
                 <p className="pb-2">
                     Email: <a href="mailto:jfang.cv.ca.us@gmail.com" className="underline decoration-dotted">jfang.cv.ca.us@gmail.com</a>

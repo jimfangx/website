@@ -7,7 +7,8 @@ import Socials from '../components/Socials'
 import Links from '../components/Links'
 import About from '../components/About'
 import Contact from '../components/Contact'
-import { FaArrowDown } from "react-icons/fa";
+import SiteNavigation from '../components/SiteNavigation'
+import { FaArrowDown, FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Home() {
   const el = useRef(null);
@@ -80,6 +81,26 @@ export default function Home() {
         <Contact>
         </Contact>
       </div>
+
+      <div className='flex flex-col w-9/12 mt-[5.5rem]'>
+        <SiteNavigation>
+        </SiteNavigation>
+      </div>
+
+      <footer className='pt-[7rem] text-xl'>
+        <div className='text-center'>
+          <p>
+            © 2022 Jim Fang
+          </p>
+          <p>
+            Code open-sourced under the MIT license: <a href="https://github.com/AirFusion45/website" target='_blank' rel='noreferrer' className="flex inline-flex flex-wrap underline decoration-dotted">GitHub/AirFusion45/website<FaExternalLinkAlt className="ml-2 mt-1 text-xl" /></a>
+          </p>
+          <p>
+            Emergency Webmaster Contact: <a href="mailto:jfang.cv.ca.us@gmail.com" className="underline decoration-dotted">jfang.cv.ca.us@gmail.com</a>
+          </p>
+        </div>
+      </footer>
+
     </div>
   )
 }
