@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import '../styles/index.module.css'
 import Image from 'next/image'
 import Socials from '../components/Socials'
@@ -66,13 +67,21 @@ export default function Home() {
         </div>
 
 
-        <div className='pt-4 text-7xl animate-fade'>
-          <FaArrowDown />
-        </div>
+        <a href='#about' className='pt-4 text-7xl animate-fade'>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1000}
+            className='pt-4 text-7xl animate-fade'
+          ><FaArrowDown /></Link>
+        </a>
       </div>
 
 
-      <div className='flex flex-col w-9/12 mt-[5.5rem]'>
+      <div className='flex flex-col w-9/12 mt-[5.5rem]' id='about'>
         <About>
         </About>
       </div>
@@ -82,7 +91,7 @@ export default function Home() {
         </Contact>
       </div>
 
-      <div className='flex flex-col w-9/12 mt-[5.5rem]'>
+      <div className='flex flex-col w-9/12 mt-[5.5rem]' id='site-navigation'>
         <SiteNavigation>
         </SiteNavigation>
       </div>
