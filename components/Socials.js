@@ -4,7 +4,7 @@ import Tooltip from '@mui/material/Tooltip';
 
 export default function Socials() {
     return (
-        <div className='flex justify-center text-6xl animate-fade'>
+        <div className='flex justify-center text-4xl animate-fade'>
 
             <div className='flex flex-row justify-between m-4'>
                 <Tooltip title="AirFusion45" arrow>

@@ -16,7 +16,7 @@ export default function Home() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['I am a developer', 'I am a student', 'I am an engineer', 'I am a creator', 'I am a dreamer.'], // Strings to display
+      strings: ['I am a developer', 'I am a student', 'I am an engineer', 'I am a creator.'], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 300,
       typeSpeed: 100,
@@ -35,7 +35,7 @@ export default function Home() {
     <div className='bg-bgBlack text-white overflow-hidden flex items-center flex-col'>
       <div className='h-screen flex flex-col justify-center items-center w-9/12'>
         <Head>
-          <title>Jim Fang</title>
+          <title>Home | Jim Fang</title>
         </Head>
 
         <div className='w-255 h-256 block text-center'>
@@ -51,8 +51,8 @@ export default function Home() {
 
 
         <div className='text-center space-y-4 font-sans'>
-          <h2 className='text-9xl animate-fade'>Jim Fang</h2>
-          <span ref={el} className='text-7xl animate-fade'></span>
+          <h2 className='text-7xl animate-fade'>Jim Fang</h2>
+          <span ref={el} className='text-5xl animate-fade'></span>
         </div>
 
 
@@ -67,7 +67,7 @@ export default function Home() {
         </div>
 
 
-        <a href='#about' className='pt-4 text-7xl animate-fade'>
+        <a href='#about' className='pt-4 text-5xl animate-fade'>
           <Link
             activeClass="active"
             to="about"
@@ -75,7 +75,7 @@ export default function Home() {
             smooth={true}
             offset={-70}
             duration={1000}
-            className='pt-4 text-7xl animate-fade'
+            className='pt-4 text-5xl animate-fade'
           ><FaArrowDown /></Link>
         </a>
       </div>
@@ -96,13 +96,13 @@ export default function Home() {
         </SiteNavigation>
       </div>
 
-      <footer className='pt-[7rem] text-xl'>
+      <footer className='pt-[7rem] text-lg'>
         <div className='text-center'>
           <p>
             © 2022 Jim Fang
           </p>
           <p>
-            Code open-sourced under the MIT license: <a href="https://github.com/AirFusion45/website" target='_blank' rel='noreferrer' className="flex inline-flex flex-wrap underline decoration-dotted">GitHub/AirFusion45/website<FaExternalLinkAlt className="ml-2 mt-1 text-xl" /></a>
+            Code open-sourced under the MIT license: <a href="https://github.com/AirFusion45/website" target='_blank' rel='noreferrer' className="flex inline-flex flex-wrap underline decoration-dotted">GitHub/AirFusion45/website<FaExternalLinkAlt className="ml-2 mt-1 text-lg" /></a>
           </p>
           <p>
             Emergency Webmaster Contact: <a href="mailto:jfang.cv.ca.us@gmail.com" className="underline decoration-dotted">jfang.cv.ca.us@gmail.com</a>
