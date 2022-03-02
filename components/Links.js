@@ -1,5 +1,6 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { Link, animateScroll as scroll } from "react-scroll";
+import LinkNext from 'next/link'
 
 export default function Links() {
     return (
@@ -10,9 +11,11 @@ export default function Links() {
             <a href="https://github.com/AirFusion45?tab=repositories" className="flex flex-row justify-between m-4 underline decoration-dotted" target='_blank' rel='noreferrer'>
                 Projects <FaExternalLinkAlt className="ml-2 mt-2 text-sm" />
             </a>
-            <a href="/uses" className='flex flex-row justify-between m-4 underline decoration-dotted'>
-                Main Stack & Gear
-            </a>
+            <LinkNext href="/uses">
+                <a className='flex flex-row justify-between m-4 underline decoration-dotted'>
+                    Main Stack & Gear
+                </a>
+            </LinkNext>
             <a href="#site-navigation">
                 <Link
                     activeClass="active"
