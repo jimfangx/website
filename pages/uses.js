@@ -1,8 +1,8 @@
 import Head from "next/head"
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { SiJavascript, SiJquery, SiNpm, SiHtml5, SiCss3, SiReact, SiBootstrap, SiTailwindcss, SiNodedotjs, SiExpress, SiDiscord, SiDocker, SiCircleci, SiGooglecloud, SiIpfs, SiSentry, SiNextdotjs, SiVisualstudiocode, SiPostman, SiGooglechrome } from "react-icons/si";
+import { SiJavascript, SiJquery, SiNpm, SiHtml5, SiCss3, SiReact, SiBootstrap, SiTailwindcss, SiNodedotjs, SiExpress, SiDiscord, SiDocker, SiCircleci, SiGooglecloud, SiIpfs, SiSentry, SiNextdotjs, SiVisualstudiocode, SiPostman, SiGooglechrome, SiElectron, SiMongodb, SiWechat, SiGitkraken } from "react-icons/si";
 import { DiMaterializecss } from "react-icons/di"
-import { GrServer } from 'react-icons/gr'
+import { FaServer } from 'react-icons/fa'
 import React, { useState, useEffect } from 'react';
 
 export default function Uses() {
@@ -42,6 +42,12 @@ export default function Uses() {
         <div className='bg-bgBlack text-white flex items-center flex-col overflow-hidden'>
             <Head>
                 <title>Stack & Gear | Jim Fang</title>
+                <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+                <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+                <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+                <link rel="manifest" href="/site.webmanifest" />
+                <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+                <meta name="theme-color" content="#ffffff" />
             </Head>
 
             <div className="items-center w-9/12">
@@ -61,6 +67,7 @@ export default function Uses() {
                             - Frontend JavaScript, ES5 & ES6 <br></br>
                             <span className="flex inline-flex flex-wrap ">- React <SiReact className="mt-1 ml-2" /></span><br></br>
                             <span className="flex inline-flex flex-wrap ">- Next.js <SiNextdotjs className="mt-1 ml-2" /></span><br></br>
+                            <span className="flex inline-flex flex-wrap ">- Electron <SiElectron className="mt-1 ml-2" /></span><br></br>
                             - Google Apps Script <br></br>
                             <span className="flex inline-flex flex-wrap ">- jQuery <SiJquery className="mt-1 ml-2" /></span><br></br>
                             <span className="flex inline-flex flex-wrap ">- NPM via Unpkg <SiNpm className="mt-1 ml-2" /></span>
@@ -79,7 +86,7 @@ export default function Uses() {
                 </div>
                 <h3 className="text-left font-bold text-4xl mb-3">Backend</h3>
                 <div className="flex flex-row justify-center mb-3">
-                    <div className="border-2 w-[320px] h-[270px] border-slate-500 p-3 rounded">
+                    <div className="border-2 w-[320px] h-[300px] border-slate-500 p-3 rounded">
                         <h1 className="text-4xl font-bold flex inline-flex flex-wrap pb-3">Node.JS<SiNodedotjs className="pl-2" /></h1>
                         <p className="text-xl">
                             - ES6 EMCAScript <br></br>
@@ -88,6 +95,7 @@ export default function Uses() {
                             - Superagent <br></br>
                             <span className="flex inline-flex flex-wrap ">- Discord.js <SiDiscord className="mt-1 ml-2" /></span><br></br>
                             <span className="flex inline-flex flex-wrap ">- IPFS <SiIpfs className="mt-1 ml-2" /></span><br />
+                            <span className="flex inline-flex flex-wrap ">- MongoDB <SiMongodb className="mt-1 ml-2" /></span><br />
                             <span className="flex inline-flex flex-wrap ">- NPM <SiNpm className="mt-1 ml-2" /></span>
                         </p>
                     </div>
@@ -95,7 +103,7 @@ export default function Uses() {
                 <h3 className="text-left font-bold text-4xl mb-3">CI/CD & Deployment</h3>
                 <div className="flex flex-row justify-center mb-3">
                     <div className="border-2 w-[320px] h-[270px] border-slate-500 p-3 rounded">
-                        <h1 className="text-4xl font-bold flex inline-flex flex-wrap pb-3">CI/CD & VPS<GrServer className="pl-2" /></h1>
+                        <h1 className="text-4xl font-bold flex inline-flex flex-wrap pb-3">CI/CD & VPS<FaServer className="pl-2" /></h1>
                         <p className="text-xl">
                             <span className="flex inline-flex flex-wrap ">- Docker <SiDocker className="mt-1 ml-2" /></span><br></br>
                             <span className="flex inline-flex flex-wrap ">- CircleCI <SiCircleci className="mt-1 ml-2" /></span><br></br>
@@ -105,10 +113,21 @@ export default function Uses() {
                         </p>
                     </div>
                 </div>
+                <h3 className="text-left font-bold text-4xl mb-3">Mobile</h3>
+                <div className="flex flex-row justify-center mb-3">
+                    <div className="border-2 w-[320px] h-[270px] border-slate-500 p-3 rounded">
+                        <h1 className="text-4xl font-bold flex inline-flex flex-wrap pb-3">JSX<SiJavascript className="pl-2" /></h1>
+                        <p className="text-xl">
+                            <span className="flex inline-flex flex-wrap ">- React Native <SiReact className="mt-1 ml-2" /></span><br></br>
+                            <span className="flex inline-flex flex-wrap ">- Tencent MMKV <SiWechat className="mt-1 ml-2" /></span><br></br>
+                        </p>
+                    </div>
+                </div>
                 <h3 className="text-left font-bold text-4xl mb-3">Editor & Utilities</h3>
                 <div>
                     <p className="text-xl">
-                        <span className="flex inline-flex flex-wrap ">- VSCode<SiVisualstudiocode className="mt-1 ml-2" /></span> <br />
+                        <span className="flex inline-flex flex-wrap ">- VSCode Insiders<SiVisualstudiocode className="mt-1 ml-2" /></span> <br />
+                        <span className="flex inline-flex flex-wrap ">- GitKraken Pro<SiGitkraken className="mt-1 ml-2" /></span> <br />
                         <span className="flex inline-flex flex-wrap ">- Postman<SiPostman className="mt-1 ml-2" /></span> <br />
                         <span className="flex inline-flex flex-wrap ">- Google Chrome<SiGooglechrome className="mt-1 ml-2" /></span>
                     </p>
@@ -116,9 +135,9 @@ export default function Uses() {
                 <h2 className="text-center underline text-5xl pb-3">Hardware</h2>
                 <div>
                     <p className="text-xl">
-                        - Pixel 4XL <br />
-                        - MacBook Pro A1708, MacOS 12.3 Dev Beta (Organization Managed, Use @ Organization Only) <br />
-                        - MacBook Pro A1989, MacOS 12.3 Dev Beta (Personal) <br />
+                        - Pixel 4XL, Android 12 Public Beta<br />
+                        - MacBook Pro A1708, MacOS 12 Dev Beta (Organization Managed, Use @ Organization Only) <br />
+                        - MacBook Pro A1989, MacOS 12 Dev Beta (Personal) <br />
                         - Custom PC: i7-7700k, 32GB (2x16) DDR4-2133, NVIDIA GTX 1080 8G, Windows 11 Insiders Dev Build
                     </p>
                 </div>

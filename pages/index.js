@@ -36,6 +36,12 @@ export default function Home() {
       <div className='h-screen flex flex-col justify-center items-center w-9/12'>
         <Head>
           <title>Home | Jim Fang</title>
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+          <link rel="manifest" href="/site.webmanifest" />
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+          <meta name="theme-color" content="#ffffff" />
         </Head>
 
         <div className='w-255 h-256 block text-center'>
@@ -52,7 +58,7 @@ export default function Home() {
 
         <div className='text-center space-y-4 font-sans'>
           <h2 className='text-7xl animate-fade'>Jim Fang</h2>
-          <span ref={el} className='text-5xl animate-fade'></span>
+          <span ref={el} className='text-4xl animate-fade'></span>
         </div>
 
 

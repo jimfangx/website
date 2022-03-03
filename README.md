@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Website
+Repository for my personal website built with [React](https://reactjs.org/) and [TailwindCSS](https://tailwindcss.com/) on [Next.js](https://nextjs.org/). Repo bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+Find the site at [airfusion.dev](https://airfusion.dev).
+Find the direct Vercel link [here](http://website-omega-ten.vercel.app/).
 
-First, run the development server:
+## Build a copy on Vercel
 
+ ​If you would like to build a copy of the website, fork this repo and deploy it on [Vercel](https://vercel.com). Vercel should automatically detect it as a Next.js project and deploy it.
+  
+## Build a copy on Local Machine
+
+Clone the repo, then:
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
 ```
+Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Contributors
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+* *AirFusion45* - Original Author
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## License 
+This Project is licensed under MIT License - see the LICENSE.md file for more details. The main points of the MIT License are:
+  
+  * This code can be used commercially
+  * This code can be modified
+  * This code can be distributed
+  * This code can be used for private use
+  * This code has no Liability
+  * This code has no Warranty
+  * When using this code, credit must be given to the author
 
-## Learn More
+## Privacy
 
-To learn more about Next.js, take a look at the following resources:
+The hosted website uses Vercel Analytics. The code in the repo contains no telemetry or tracking.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Credits
+* Thanks to Brad Traversy's [Next.js Crash Course](https://www.youtube.com/watch?v=mTz0GXj8NN0) for covering Next.js & React & providing me with the foundational Next.js knowledge to write this site. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contact Me
+Feel free to contact me if you find bugs, license issues, missing credits, etc.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  * Please contact me here:
+    * Email: jfang.cv.ca.us@gmail.com
+    * Discord: AirFusion#1706
