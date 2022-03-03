@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import '../styles/index.module.css'
 import Image from 'next/image'
 import Socials from '../components/Socials'
 import Links from '../components/Links'
