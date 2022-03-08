@@ -61,7 +61,7 @@ export default function Uses() {
                 <h2 className="text-center underline text-5xl pb-3">Software Stack</h2>
                 <h3 className="text-left font-bold text-4xl mb-3">Frontend</h3>
                 <div className="flex flex-row justify-center mb-3 flex-wrap">
-                    <div className={"border-2 w-[320px] h-[270px] border-slate-500 p-3 rounded " + (!isMobile ? "mr-5" : "mb-3")}>
+                    <div className={"border-2 w-[320px] h-[300px] border-slate-500 p-3 rounded " + (!isMobile ? "mr-5" : "mb-3")}>
                         <h1 className="text-4xl font-bold flex inline-flex flex-wrap pb-3">JavaScript<SiJavascript className="pl-2" /></h1>
                         <p className="text-xl">
                             - Frontend JavaScript, ES5 & ES6 <br></br>
@@ -73,7 +73,7 @@ export default function Uses() {
                             <span className="flex inline-flex flex-wrap ">- NPM via Unpkg <SiNpm className="mt-1 ml-2" /></span>
                         </p>
                     </div>
-                    <div className={"border-2 w-[320px] h-[270px] border-slate-500 p-3 rounded " + (!isMobile ? "ml-5" : "")}>
+                    <div className={"border-2 w-[320px] h-[300px] border-slate-500 p-3 rounded " + (!isMobile ? "ml-5" : "")}>
                         <h1 className="text-4xl font-bold flex inline-flex flex-wrap pb-3">HTML & CSS<SiHtml5 className="pl-2" /><SiCss3 className="pl-2" /></h1>
                         <p className="text-xl">
                             - Frontend HTML & CSS <br></br>
@@ -102,7 +102,7 @@ export default function Uses() {
                 </div>
                 <h3 className="text-left font-bold text-4xl mb-3">CI/CD & Deployment</h3>
                 <div className="flex flex-row justify-center mb-3">
-                    <div className="border-2 w-[320px] h-[270px] border-slate-500 p-3 rounded">
+                    <div className="border-2 w-[320px] h-[300px] border-slate-500 p-3 rounded">
                         <h1 className="text-4xl font-bold flex inline-flex flex-wrap pb-3">CI/CD & VPS<FaServer className="pl-2" /></h1>
                         <p className="text-xl">
                             <span className="flex inline-flex flex-wrap ">- Docker <SiDocker className="mt-1 ml-2" /></span><br></br>
@@ -115,7 +115,7 @@ export default function Uses() {
                 </div>
                 <h3 className="text-left font-bold text-4xl mb-3">Mobile</h3>
                 <div className="flex flex-row justify-center mb-3">
-                    <div className="border-2 w-[320px] h-[270px] border-slate-500 p-3 rounded">
+                    <div className="border-2 w-[320px] h-[300px] border-slate-500 p-3 rounded">
                         <h1 className="text-4xl font-bold flex inline-flex flex-wrap pb-3">JSX<SiJavascript className="pl-2" /></h1>
                         <p className="text-xl">
                             <span className="flex inline-flex flex-wrap ">- React Native <SiReact className="mt-1 ml-2" /></span><br></br>
