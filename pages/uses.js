@@ -138,7 +138,7 @@ export default function Uses() {
                         - Pixel 4XL, Android 12 Public Beta<br />
                         - MacBook Pro A1708, MacOS 12 Dev Beta (Organization Managed, Use @ Organization Only) <br />
                         - MacBook Pro A1989, MacOS 12 Dev Beta (Personal) <br />
-                        - Custom PC: i7-7700k, 32GB (2x16) DDR4-2133, NVIDIA GTX 1080 8G, Windows 11 Insiders Dev Build
+                        - Custom PC: i7-7700k (Overclocked @ 4.8 GHz), 32GB (2x16) DDR4-3200, NVIDIA GTX 1080 8G, Windows 11 Insiders Dev Build
                     </p>
                 </div>
             </div>
