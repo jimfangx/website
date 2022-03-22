@@ -5,7 +5,7 @@ import LinkNext from 'next/link'
 export default function Links() {
     return (
         <div className='flex justify-center text-lg animate-fade'>
-            <a href="/resume_technical.pdf" className='flex flex-row justify-between m-4 underline decoration-dotted'>
+            <a href="/resume-Jim-Fang.pdf" className='flex flex-row justify-between m-4 underline decoration-dotted'>
                 Resume
             </a>
             <a href="https://github.com/AirFusion45?tab=repositories" className="flex flex-row justify-between m-4 underline decoration-dotted" target='_blank' rel='noreferrer'>
