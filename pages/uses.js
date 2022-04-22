@@ -1,6 +1,6 @@
 import Head from "next/head"
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { SiJavascript, SiJquery, SiNpm, SiHtml5, SiCss3, SiReact, SiBootstrap, SiTailwindcss, SiNodedotjs, SiExpress, SiDiscord, SiDocker, SiCircleci, SiGooglecloud, SiIpfs, SiSentry, SiNextdotjs, SiVisualstudiocode, SiPostman, SiGooglechrome, SiElectron, SiMongodb, SiWechat, SiGitkraken } from "react-icons/si";
+import { SiJavascript, SiJquery, SiNpm, SiHtml5, SiCss3, SiReact, SiBootstrap, SiTailwindcss, SiNodedotjs, SiExpress, SiDiscord, SiDocker, SiCircleci, SiGooglecloud, SiIpfs, SiSentry, SiNextdotjs, SiVisualstudiocode, SiPostman, SiGooglechrome, SiElectron, SiMongodb, SiWechat, SiGitkraken, SiRedis, SiVercel, SiHeroku } from "react-icons/si";
 import { DiMaterializecss } from "react-icons/di"
 import { FaServer } from 'react-icons/fa'
 import React, { useState, useEffect } from 'react';
@@ -86,7 +86,7 @@ export default function Uses() {
                 </div>
                 <h3 className="text-left font-bold text-4xl mb-3">Backend</h3>
                 <div className="flex flex-row justify-center mb-3">
-                    <div className="border-2 w-[320px] h-[300px] border-slate-500 p-3 rounded">
+                    <div className="border-2 w-[320px] h-[350px] border-slate-500 p-3 rounded">
                         <h1 className="text-4xl font-bold flex inline-flex flex-wrap pb-3">Node.JS<SiNodedotjs className="pl-2" /></h1>
                         <p className="text-xl">
                             - ES6 EMCAScript <br></br>
@@ -96,6 +96,7 @@ export default function Uses() {
                             <span className="flex inline-flex flex-wrap ">- Discord.js <SiDiscord className="mt-1 ml-2" /></span><br></br>
                             <span className="flex inline-flex flex-wrap ">- IPFS <SiIpfs className="mt-1 ml-2" /></span><br />
                             <span className="flex inline-flex flex-wrap ">- MongoDB <SiMongodb className="mt-1 ml-2" /></span><br />
+                            <span className="flex inline-flex flex-wrap ">- Redis <SiRedis className="mt-1 ml-2" /></span><br />
                             <span className="flex inline-flex flex-wrap ">- NPM <SiNpm className="mt-1 ml-2" /></span>
                         </p>
                     </div>
@@ -109,6 +110,8 @@ export default function Uses() {
                             <span className="flex inline-flex flex-wrap ">- CircleCI <SiCircleci className="mt-1 ml-2" /></span><br></br>
                             <span className="flex inline-flex flex-wrap ">- Google Cloud Compute<SiGooglecloud className="mt-1 ml-2" /></span><br />
                             - Google Cloud Functions & App Engine <br />
+                            <span className="flex inline-flex flex-wrap ">- Vercel <SiVercel className="mt-1 ml-2" /></span><br></br>
+                            <span className="flex inline-flex flex-wrap ">- Heroku <SiHeroku className="mt-1 ml-2" /></span><br></br>
                             <span className="flex inline-flex flex-wrap ">- Sentry<SiSentry className="mt-1 ml-2" /></span>
                         </p>
                     </div>
