@@ -7,7 +7,7 @@ import Socials from '../components/Socials'
 import Links from '../components/Links'
 import About from '../components/About'
 import Contact from '../components/Contact'
-import SiteNavigation from '../components/SiteNavigation'
+import SiteSubpages from '../components/SiteSubpages'
 import { FaArrowDown, FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['I am a developer', 'I am a student', 'I am an engineer', 'I am a creator.'], // Strings to display
+      strings: ['I am a developer', 'I am an engineer', 'I am a student', 'I am a creator.'], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 300,
       typeSpeed: 100,
@@ -96,9 +96,9 @@ export default function Home() {
         </Contact>
       </div>
 
-      <div className='flex flex-col w-9/12 mt-[5.5rem]' id='site-navigation'>
-        <SiteNavigation>
-        </SiteNavigation>
+      <div className='flex flex-col w-9/12 mt-[5.5rem]' id='site-subpages'>
+        <SiteSubpages>
+        </SiteSubpages>
       </div>
 
       <footer className='pt-[7rem] text-lg'>

@@ -1,8 +1,9 @@
 import Head from "next/head"
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { SiJavascript, SiJquery, SiNpm, SiHtml5, SiCss3, SiReact, SiBootstrap, SiTailwindcss, SiNodedotjs, SiExpress, SiDiscord, SiDocker, SiCircleci, SiGooglecloud, SiIpfs, SiSentry, SiNextdotjs, SiVisualstudiocode, SiPostman, SiGooglechrome, SiElectron, SiMongodb, SiWechat, SiGitkraken, SiRedis, SiVercel, SiHeroku } from "react-icons/si";
+import { SiJavascript, SiJquery, SiNpm, SiHtml5, SiCss3, SiReact, SiBootstrap, SiTailwindcss, SiNodedotjs, SiExpress, SiDiscord, SiDocker, SiCircleci, SiGooglecloud, SiIpfs, SiSentry, SiNextdotjs, SiVisualstudiocode, SiPostman, SiGooglechrome, SiElectron, SiMongodb, SiWechat, SiGitkraken, SiRedis, SiVercel, SiHeroku, SiCloudflare } from "react-icons/si";
 import { DiMaterializecss } from "react-icons/di"
 import { FaServer } from 'react-icons/fa'
+import { GiChargingBull } from 'react-icons/gi'
 import React, { useState, useEffect } from 'react';
 
 export default function Uses() {
@@ -41,7 +42,7 @@ export default function Uses() {
     return (
         <div className='bg-bgBlack text-white flex items-center flex-col overflow-hidden'>
             <Head>
-                <title>Stack & Gear | Jim Fang</title>
+                <title>Tech Stack & Gear | Jim Fang</title>
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
                 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -51,7 +52,7 @@ export default function Uses() {
             </Head>
 
             <div className="items-center w-9/12">
-                <h1 className="text-7xl underline decoration-double pt-9 pb-5 text-center">Stack & Gear</h1>
+                <h1 className="text-7xl underline decoration-double pt-9 pb-5 text-center">Tech Stack & Gear</h1>
                 <p className="text-2xl pb-5">
                     This page details my dev stack & the hardware/gear I use. This page also contributes to<a href="https://uses.tech/" className="px-2 underline decoration-dotted flex inline-flex flex-wrap" target='_blank' rel='noreferrer'>uses.tech<FaExternalLinkAlt className="ml-2 mt-1 text-2xl" /></a>
                 </p>
@@ -64,7 +65,7 @@ export default function Uses() {
                     <div className={"border-2 w-[320px] h-[300px] border-slate-500 p-3 rounded " + (!isMobile ? "mr-5" : "mb-3")}>
                         <h1 className="text-4xl font-bold flex inline-flex flex-wrap pb-3">JavaScript<SiJavascript className="pl-2" /></h1>
                         <p className="text-xl">
-                            - Frontend JavaScript, ES5 & ES6 <br></br>
+                            - Frontend JavaScript<br></br>
                             <span className="flex inline-flex flex-wrap ">- React <SiReact className="mt-1 ml-2" /></span><br></br>
                             <span className="flex inline-flex flex-wrap ">- Next.js <SiNextdotjs className="mt-1 ml-2" /></span><br></br>
                             <span className="flex inline-flex flex-wrap ">- Electron <SiElectron className="mt-1 ml-2" /></span><br></br>
@@ -86,13 +87,15 @@ export default function Uses() {
                 </div>
                 <h3 className="text-left font-bold text-4xl mb-3">Backend</h3>
                 <div className="flex flex-row justify-center mb-3">
-                    <div className="border-2 w-[320px] h-[350px] border-slate-500 p-3 rounded">
+                    <div className="border-2 w-[320px] h-[390px] border-slate-500 p-3 rounded">
                         <h1 className="text-4xl font-bold flex inline-flex flex-wrap pb-3">Node.JS<SiNodedotjs className="pl-2" /></h1>
                         <p className="text-xl">
-                            - ES6 EMCAScript <br></br>
+                            - JavaScript <br></br>
+                            - TypeScript <br></br>
                             <span className="flex inline-flex flex-wrap ">- ExpressJS <SiExpress className="mt-1 ml-2" /></span><br></br>
+                            <span className="flex inline-flex flex-wrap ">- Bull Queue Manager <GiChargingBull className="mt-1 ml-2" /></span><br></br>
                             - Cheerio & Puppeteer <br></br>
-                            - Superagent <br></br>
+                            - Superagent/Axios/Fetch <br></br>
                             <span className="flex inline-flex flex-wrap ">- Discord.js <SiDiscord className="mt-1 ml-2" /></span><br></br>
                             <span className="flex inline-flex flex-wrap ">- IPFS <SiIpfs className="mt-1 ml-2" /></span><br />
                             <span className="flex inline-flex flex-wrap ">- MongoDB <SiMongodb className="mt-1 ml-2" /></span><br />
@@ -103,15 +106,16 @@ export default function Uses() {
                 </div>
                 <h3 className="text-left font-bold text-4xl mb-3">CI/CD & Deployment</h3>
                 <div className="flex flex-row justify-center mb-3">
-                    <div className="border-2 w-[320px] h-[300px] border-slate-500 p-3 rounded">
+                    <div className="border-2 w-[320px] h-[330px] border-slate-500 p-3 rounded">
                         <h1 className="text-4xl font-bold flex inline-flex flex-wrap pb-3">CI/CD & VPS<FaServer className="pl-2" /></h1>
                         <p className="text-xl">
                             <span className="flex inline-flex flex-wrap ">- Docker <SiDocker className="mt-1 ml-2" /></span><br></br>
                             <span className="flex inline-flex flex-wrap ">- CircleCI <SiCircleci className="mt-1 ml-2" /></span><br></br>
                             <span className="flex inline-flex flex-wrap ">- Google Cloud Compute<SiGooglecloud className="mt-1 ml-2" /></span><br />
-                            - Google Cloud Functions & App Engine <br />
+                            - Google Cloud Functions/Run & App Engine <br />
                             <span className="flex inline-flex flex-wrap ">- Vercel <SiVercel className="mt-1 ml-2" /></span><br></br>
                             <span className="flex inline-flex flex-wrap ">- Heroku <SiHeroku className="mt-1 ml-2" /></span><br></br>
+                            <span className="flex inline-flex flex-wrap ">- Cloudflare Workers <SiCloudflare className="mt-1 ml-2" /></span><br></br>
                             <span className="flex inline-flex flex-wrap ">- Sentry<SiSentry className="mt-1 ml-2" /></span>
                         </p>
                     </div>
@@ -132,15 +136,15 @@ export default function Uses() {
                         <span className="flex inline-flex flex-wrap ">- VSCode Insiders<SiVisualstudiocode className="mt-1 ml-2" /></span> <br />
                         <span className="flex inline-flex flex-wrap ">- GitKraken Pro<SiGitkraken className="mt-1 ml-2" /></span> <br />
                         <span className="flex inline-flex flex-wrap ">- Postman<SiPostman className="mt-1 ml-2" /></span> <br />
-                        <span className="flex inline-flex flex-wrap ">- Google Chrome<SiGooglechrome className="mt-1 ml-2" /></span>
+                        <span className="flex inline-flex flex-wrap ">- Google Chrome Canary<SiGooglechrome className="mt-1 ml-2" /></span>
                     </p>
                 </div>
                 <h2 className="text-center underline text-5xl pb-3">Hardware</h2>
                 <div>
                     <p className="text-xl">
-                        - Pixel 4XL, Android 12 Public Beta<br />
-                        - MacBook Pro A1708, MacOS 12 Dev Beta (Organization Managed, Use @ Organization Only) <br />
-                        - MacBook Pro A1989, MacOS 12 Dev Beta (Personal) <br />
+                        - Pixel 4XL, Android 13 Public Beta<br />
+                        - MacBook Pro A1708, MacOS 13 Dev Beta (Organization) <br />
+                        - MacBook Pro A1989, MacOS 13 Dev Beta (Personal) <br />
                         - Custom PC: i7-7700k (Overclocked @ 4.8 GHz), 32GB (2x16) DDR4-3200, NVIDIA GTX 1080 8G, Windows 11 Insiders Dev Build
                     </p>
                 </div>

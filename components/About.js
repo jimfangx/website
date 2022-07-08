@@ -8,7 +8,7 @@ export default function About() {
             </p>
             <div className="text-xl flex inline-flex flex-wrap">
                 <p className="pr-2 flex inline-flex flex-wrap">
-                    I am currently a junior at <a href="https://college-prep.org" className="px-2 underline decoration-dotted flex inline-flex flex-wrap" target='_blank' rel='noreferrer'>The College Preparatory School<FaExternalLinkAlt className="ml-2 mt-1 text-xl" /></a> in Oakland, California.
+                    I am currently a senior at <a href="https://college-prep.org" className="px-2 underline decoration-dotted flex inline-flex flex-wrap" target='_blank' rel='noreferrer'>The College Preparatory School<FaExternalLinkAlt className="ml-2 mt-1 text-xl" /></a> in Oakland, California.
                 </p>
             </div>
         </div>

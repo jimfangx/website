@@ -1,5 +1,4 @@
-import { FaGithub, FaLinkedinIn, FaDiscord, FaTwitter } from "react-icons/fa";
-import { SiEyeem } from "react-icons/si";
+import { FaGithub, FaLinkedinIn, FaDiscord, FaTwitter, FaUnsplash } from "react-icons/fa";
 import Tooltip from '@mui/material/Tooltip';
 
 export default function Socials() {
@@ -39,9 +38,9 @@ export default function Socials() {
             </div>
 
             <div className='flex flex-row justify-between m-4'>
-                <Tooltip title="airfusion" arrow>
-                    <a href='https://www.eyeem.com/u/airfusion' target='_blank' rel='noreferrer'>
-                        <SiEyeem />
+                <Tooltip title="@airfusion" arrow>
+                    <a href='https://unsplash.com/@airfusion' target='_blank' rel='noreferrer'>
+                        <FaUnsplash />
                     </a>
                 </Tooltip>
             </div>

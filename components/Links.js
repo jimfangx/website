@@ -13,19 +13,19 @@ export default function Links() {
             </a>
             <LinkNext href="/uses">
                 <a className='flex flex-row justify-between m-4 underline decoration-dotted'>
-                    Main Stack & Gear
+                    Tech Stack
                 </a>
             </LinkNext>
-            <a href="#site-navigation">
+            <a href="#site-subpages">
                 <Link
                     activeClass="active"
-                    to="site-navigation"
+                    to="site-subpages"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={1500}
                     className='flex flex-row justify-between m-4 underline decoration-dotted'
-                >Site Navigation</Link>
+                >Site Subpages</Link>
             </a>
         </div>
     )
