@@ -142,7 +142,8 @@ export default function Uses() {
                 <h2 className="text-center underline text-5xl pb-3">Hardware</h2>
                 <div>
                     <p className="text-xl">
-                        - Pixel 4XL, Android 13 Public Beta<br />
+                        - Pixel 4XL, Android 13 Public Beta <br />
+                        - iPad Air A2588, iPadOS 16 Dev Beta <br />
                         - MacBook Pro A1708, MacOS 13 Dev Beta (Organization) <br />
                         - MacBook Pro A1989, MacOS 13 Dev Beta (Personal) <br />
                         - Custom PC: i7-7700k (Overclocked @ 4.8 GHz), 32GB (2x16) DDR4-3200, NVIDIA GTX 1080 8G, Windows 11 Insiders Dev Build
