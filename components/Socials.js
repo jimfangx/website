@@ -30,8 +30,8 @@ export default function Socials() {
             </div>
 
             <div className='flex flex-row justify-between m-4'>
-                <Tooltip title="AirFusion#1706" arrow>
-                    <a href='https://www.discordapp.com/users/280148284826189827' target='_blank' rel='noreferrer'>
+                <Tooltip title="AirFusion#5112" arrow>
+                    <a href='https://www.discordapp.com/users/528197530656440320' target='_blank' rel='noreferrer'>
                         <FaDiscord data-tooltip-target="tooltip" />
                     </a>
                 </Tooltip>
