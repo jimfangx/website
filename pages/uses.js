@@ -145,6 +145,7 @@ export default function Uses() {
                         - Pixel 4XL, Android 13 Public Beta <br />
                         - iPad Air A2588, iPadOS 16 Dev Beta <br />
                         - MacBook Pro A1708, MacOS 13 Dev Beta (Organization) <br />
+                        - MacBook Pro A2338, MacOS 13 Dev Beta (Organization) <br />
                         - MacBook Pro A1989, MacOS 13 Dev Beta (Personal) <br />
                         - Custom PC: i7-7700k (Overclocked @ 4.8 GHz), 32GB (2x16) DDR4-3200, NVIDIA GTX 1080 8G, Windows 11 Insiders Dev Build
                     </p>
@@ -153,7 +154,7 @@ export default function Uses() {
             <footer className='pt-[7rem] text-xl'>
                 <div className='text-center'>
                     <p>
-                        © 2022 Jim Fang
+                        © 2023 Jim Fang
                     </p>
                     <p>
                         Code open-sourced under the MIT license: <a href="https://github.com/AirFusion45/website" target='_blank' rel='noreferrer' className="flex inline-flex flex-wrap underline decoration-dotted">GitHub/AirFusion45/website<FaExternalLinkAlt className="ml-2 mt-1 text-xl" /></a>
