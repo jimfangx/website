@@ -104,7 +104,7 @@ export default function Home() {
       <footer className='pt-[7rem] text-lg'>
         <div className='text-center'>
           <p>
-            © 2022 Jim Fang
+            © 2023 Jim Fang
           </p>
           <p>
             Code open-sourced under the MIT license: <a href="https://github.com/AirFusion45/website" target='_blank' rel='noreferrer' className="flex inline-flex flex-wrap underline decoration-dotted">GitHub/AirFusion45/website<FaExternalLinkAlt className="ml-2 mt-1 text-lg" /></a>
