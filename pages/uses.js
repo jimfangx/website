@@ -1,10 +1,11 @@
 import Head from "next/head"
-import { FaExternalLinkAlt } from "react-icons/fa";
-import { SiJavascript, SiJquery, SiNpm, SiHtml5, SiCss3, SiReact, SiBootstrap, SiTailwindcss, SiNodedotjs, SiExpress, SiDiscord, SiDocker, SiCircleci, SiGooglecloud, SiIpfs, SiSentry, SiNextdotjs, SiVisualstudiocode, SiPostman, SiGooglechrome, SiElectron, SiMongodb, SiWechat, SiGitkraken, SiRedis, SiVercel, SiHeroku, SiCloudflare } from "react-icons/si";
+import { FaArrowLeft, FaExternalLinkAlt } from "react-icons/fa";
+import { SiJavascript, SiJquery, SiNpm, SiHtml5, SiCss3, SiReact, SiBootstrap, SiTailwindcss, SiNodedotjs, SiExpress, SiDiscord, SiDocker, SiCircleci, SiGooglecloud, SiIpfs, SiSentry, SiNextdotjs, SiVisualstudiocode, SiPostman, SiGooglechrome, SiElectron, SiMongodb, SiWechat, SiGitkraken, SiRedis, SiVercel, SiHeroku, SiCloudflare, SiSignal, SiWhatsapp } from "react-icons/si";
 import { DiMaterializecss } from "react-icons/di"
 import { FaServer } from 'react-icons/fa'
 import { GiChargingBull } from 'react-icons/gi'
 import React, { useState, useEffect } from 'react';
+import LinkNext from 'next/link'
 
 export default function Uses() {
     // Initialize state with undefined width/height so server and client renders match
@@ -52,8 +53,10 @@ export default function Uses() {
             </Head>
 
             <div className="items-center w-9/12">
-                <h1 className="text-7xl underline decoration-double pt-9 pb-5 text-center">Tech Stack & Gear</h1>
+                {/* TODO: fix arrow position and spacing via padding */}
+                <span className="flex inline-flex flex-wrap"><FaArrowLeft className="ml-2 mt-1 text-2xl" /><a className="underline decoration-dotted " href="https://airfusion.dev" rel="noreferrer" target='_blank'>airfusion.dev<LinkNext href="/uses"><a className="underline decoration-double">/uses</a></LinkNext></a></span> 
                 <p className="text-2xl pb-5">
+                    <h1 className="text-7xl underline decoration-double pt-9 pb-5 text-center">Tech Stack & Gear</h1>
                     This page details my dev stack & the hardware/gear I use. This page also contributes to<a href="https://uses.tech/" className="px-2 underline decoration-dotted flex inline-flex flex-wrap" target='_blank' rel='noreferrer'>uses.tech<FaExternalLinkAlt className="ml-2 mt-1 text-2xl" /></a>
                 </p>
             </div>
@@ -130,13 +133,23 @@ export default function Uses() {
                         </p>
                     </div>
                 </div>
-                <h3 className="text-left font-bold text-4xl mb-3">Editor & Utilities</h3>
+                <h3 className="text-left font-bold text-4xl mb-3">Editors & Development Utilitis</h3>
                 <div>
                     <p className="text-xl">
                         <span className="flex inline-flex flex-wrap ">- VSCode Insiders<SiVisualstudiocode className="mt-1 ml-2" /></span> <br />
                         <span className="flex inline-flex flex-wrap ">- GitKraken Pro<SiGitkraken className="mt-1 ml-2" /></span> <br />
                         <span className="flex inline-flex flex-wrap ">- Postman<SiPostman className="mt-1 ml-2" /></span> <br />
                         <span className="flex inline-flex flex-wrap ">- Google Chrome Canary<SiGooglechrome className="mt-1 ml-2" /></span>
+                    </p>
+                </div>
+                <br />
+                <h3 className="text-left font-bold text-4xl mb-3">Main Communications</h3>
+                <div>
+                    <p className="text-xl">
+                        <span className="flex inline-flex flex-wrap ">- Discord Canary<SiDiscord className="mt-1 ml-2" /></span> <br />
+                        <span className="flex inline-flex flex-wrap ">- Signal<SiSignal className="mt-1 ml-2" /></span> <br />
+                        <span className="flex inline-flex flex-wrap ">- WhatsApp<SiWhatsapp className="mt-1 ml-2" /></span> <br />
+                        <span className="flex inline-flex flex-wrap ">- WeChat<SiWechat className="mt-1 ml-2" /></span> <br />
                     </p>
                 </div>
                 <h2 className="text-center underline text-5xl pb-3">Hardware</h2>
