@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'bgBlack': '#0f0f0f'
+        'bgBlack': '#131415'
       },
       animation: {
         'fade': 'fade ease 3s'
@@ -20,7 +20,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      sans: ['Roboto', 'sans-serif']
+      sans: ['inter', 'sans-serif']
     }
   },
   plugins: [
