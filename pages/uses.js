@@ -54,7 +54,7 @@ export default function Uses() {
 
             <div className="items-center w-9/12">
                 {/* TODO: fix arrow position and spacing via padding */}
-                <span className="flex inline-flex flex-wrap"><FaArrowLeft className="ml-2 mt-1 text-2xl" /><a className="underline decoration-dotted " href="https://airfusion.dev" rel="noreferrer" target='_blank'>airfusion.dev<LinkNext href="/uses"><a className="underline decoration-double">/uses</a></LinkNext></a></span> 
+                <span className="flex inline-flex flex-wrap"><FaArrowLeft className="ml-2 mt-1 text-2xl" /><a className="underline decoration-dotted " href="https://airfusion.dev" rel="noreferrer">airfusion.dev<LinkNext href="/uses"><span className="underline decoration-double">/uses</span></LinkNext></a></span> 
                 <p className="text-2xl pb-5">
                     <h1 className="text-7xl underline decoration-double pt-9 pb-5 text-center">Tech Stack & Gear</h1>
                     This page details my dev stack & the hardware/gear I use. This page also contributes to<a href="https://uses.tech/" className="px-2 underline decoration-dotted flex inline-flex flex-wrap" target='_blank' rel='noreferrer'>uses.tech<FaExternalLinkAlt className="ml-2 mt-1 text-2xl" /></a>
@@ -155,10 +155,9 @@ export default function Uses() {
                 <h2 className="text-center underline text-5xl pb-3">Hardware</h2>
                 <div>
                     <p className="text-xl">
-                        - Pixel 4XL, Android 13 Public Beta <br />
+                        - iPhone 14 Pro, iOS 16 Dev Beta <br />
                         - iPad Air A2588, iPadOS 16 Dev Beta <br />
-                        - MacBook Pro A1708, MacOS 13 Dev Beta (Organization) <br />
-                        - MacBook Pro A2338, MacOS 13 Dev Beta (Organization) <br />
+                        - MacBook Pro A1708, MacOS 13 Dev Beta (Ex-Organization) <br />
                         - MacBook Pro A1989, MacOS 13 Dev Beta (Personal) <br />
                         - Custom PC: i7-7700k (Overclocked @ 4.8 GHz), 32GB (2x16) DDR4-3200, NVIDIA GTX 1080 8G, Windows 11 Insiders Dev Build
                     </p>
@@ -173,7 +172,7 @@ export default function Uses() {
                         Code open-sourced under the MIT license: <a href="https://github.com/AirFusion45/website" target='_blank' rel='noreferrer' className="flex inline-flex flex-wrap underline decoration-dotted">GitHub/AirFusion45/website<FaExternalLinkAlt className="ml-2 mt-1 text-xl" /></a>
                     </p>
                     <p>
-                        Emergency Webmaster Contact: <a href="mailto:jfang.cv.ca.us@gmail.com" className="underline decoration-dotted">jfang.cv.ca.us@gmail.com</a>
+                        Emergency Webmaster Contact: <a href="mailto:jim@airfusion.dev" className="underline decoration-dotted">jim@airfusion.dev</a>
                     </p>
                 </div>
             </footer>
